@@ -674,3 +674,70 @@ address {
   letter-spacing: 0.03em;
   margin-bottom: 23px;
 }
+
+.modal-input {
+  width: 533px;
+  height: 60px;
+  border-radius: 5px;
+  border: 1px solid #cacaca;
+  background: transparent;
+  padding-left: 21px;
+  color: #000;
+  font-size: 22px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  margin-bottom: 23px;
+}
+
+.modal-input::placeholder {
+  color: #000;
+  font-size: 16px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+}
+
+.modal-textarea {
+  width: 533px;
+  height: 149px;
+  border-radius: 5px;
+  border: 1px solid #cacaca;
+  background: transparent;
+  margin-bottom: 33px;
+  padding: 22px 21px;
+  color: #000;
+  font-size: 22px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+  resize: none;
+}
+
+.modal-textarea::placeholder {
+  color: #000;
+  font-size: 16px;
+  line-height: 1.55;
+  letter-spacing: 0.03em;
+}
+
+.modal-btn {
+  min-width: 181px;
+  height: 48px;
+  border-radius: 5px;
+  background: #5f0a61;
+  color: #fff;
+  font-size: 16px;
+  line-height: normal;
+  letter-spacing: 0.03em;
+  border: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}
+.no-scroll {
+  overflow: hidden;
+}
